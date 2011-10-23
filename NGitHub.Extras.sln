@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.Extras", "src\NGitHub.Extras\NGitHub.Extras.csproj", "{5534940B-7808-4158-ADC9-A7592F44DEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.SL4.Extras", "src\NGitHub.SL4.Extras\NGitHub.SL4.Extras.csproj", "{D99E27C1-10CA-437E-924D-B038A0B026B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.WindowsPhone.Extras", "src\NGitHub.WindowsPhone.Extras\NGitHub.WindowsPhone.Extras.csproj", "{A08E02A1-3257-44B2-9783-311112A12B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.Extras.Test", "test\NGitHub.Extras.Test\NGitHub.Extras.Test.csproj", "{862BD320-99D6-467A-80A5-F5E31E8F9498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{ED81A735-BA79-4381-9F75-D092095529A2}"
+	ProjectSection(SolutionItems) = preProject
+		NGitHub.Extras.nuspec = NGitHub.Extras.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5534940B-7808-4158-ADC9-A7592F44DEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5534940B-7808-4158-ADC9-A7592F44DEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5534940B-7808-4158-ADC9-A7592F44DEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5534940B-7808-4158-ADC9-A7592F44DEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99E27C1-10CA-437E-924D-B038A0B026B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99E27C1-10CA-437E-924D-B038A0B026B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99E27C1-10CA-437E-924D-B038A0B026B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99E27C1-10CA-437E-924D-B038A0B026B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08E02A1-3257-44B2-9783-311112A12B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08E02A1-3257-44B2-9783-311112A12B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08E02A1-3257-44B2-9783-311112A12B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08E02A1-3257-44B2-9783-311112A12B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862BD320-99D6-467A-80A5-F5E31E8F9498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862BD320-99D6-467A-80A5-F5E31E8F9498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862BD320-99D6-467A-80A5-F5E31E8F9498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862BD320-99D6-467A-80A5-F5E31E8F9498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
