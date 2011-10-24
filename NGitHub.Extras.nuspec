@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
     <id>NGitHub.Extras</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <title>NGitHub.Extras</title>
     <authors>Akil Burgess</authors>
     <owners>Akil Burgess</owners>
@@ -24,7 +24,7 @@
 
   <files>
     <file src="src\NGitHub.Extras\bin\Release\NGitHub.Extras.dll" target="lib\net40"/>
-    <file src="src\NGitHub.SL4\bin\Release\NGitHub.SL4.Extras.dll" target="lib\sl4"/>
+    <file src="src\NGitHub.SL4.Extras\bin\Release\NGitHub.SL4.Extras.dll" target="lib\sl4"/>
     <file src="src\NGitHub.WindowsPhone.Extras\bin\Release\NGitHub.WindowsPhone.Extras.dll" target="lib\sl3-wp"/>
     <file src="lib\sl3-wp\System.ServiceModel.Syndication.dll" target="lib\sl3-wp"/>
   </files>

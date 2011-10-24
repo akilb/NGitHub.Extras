@@ -50,7 +50,7 @@
     <Compile Include="Services\FeedService.cs" />
     <Compile Include="Services\IFeedService.cs" />
     <Compile Include="SharedAssemblyInfo.cs" />
-    <Compile Include="Utility\Requires.cs" />
+    <Compile Include="Utility\Ensure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

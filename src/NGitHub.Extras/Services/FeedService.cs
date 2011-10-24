@@ -21,8 +21,8 @@ namespace NGitHub.Extras.Services {
         }
 
         public FeedService(IGitHubClient client, IRestClientFactory factory) {
-            Requires.ArgumentNotNull(client, "client");
-            Requires.ArgumentNotNull(factory, "factory");
+            Ensure.ArgumentNotNull(client, "client");
+            Ensure.ArgumentNotNull(factory, "factory");
 
             _client = client;
             _factory = factory;
@@ -31,7 +31,7 @@ namespace NGitHub.Extras.Services {
         public void GetUserActivityAsync(string user,
                                          Action<IEnumerable<FeedItem>> callback,
                                          Action<GitHubException> onError) {
-            Requires.ArgumentNotNull(user, "user");
+            Ensure.ArgumentNotNull(user, "user");
 
             GetFeedItemsAsync(string.Format("{0}.atom", user), callback, onError);
         }
@@ -39,7 +39,7 @@ namespace NGitHub.Extras.Services {
         public void GetUserNewsFeedAsync(string user,
                                          Action<IEnumerable<FeedItem>> callback,
                                          Action<GitHubException> onError) {
-            Requires.ArgumentNotNull(user, "user");
+            Ensure.ArgumentNotNull(user, "user");
 
             GetFeedItemsAsync(string.Format("{0}.private.atom", user), callback, onError);
         }
@@ -47,8 +47,8 @@ namespace NGitHub.Extras.Services {
         private void GetFeedItemsAsync(string resource,
                                        Action<IEnumerable<FeedItem>> callback,
                                        Action<GitHubException> onError) {
-            Requires.ArgumentNotNull(callback, "callback");
-            Requires.ArgumentNotNull(onError, "onError");
+            Ensure.ArgumentNotNull(callback, "callback");
+            Ensure.ArgumentNotNull(onError, "onError");
 
             var client = _factory.CreateRestClient(Constants.GitHubUrl);
             client.Authenticator = _client.Authenticator;

@@ -9,7 +9,7 @@ namespace NGitHub.Extras.Models {
         }
 
         public FeedItem(SyndicationItem item) {
-            Requires.ArgumentNotNull(item, "item");
+            Ensure.ArgumentNotNull(item, "item");
 
             Id = item.Id;
             User = item.Authors[0].Name;
