@@ -39,4 +39,5 @@ _ReSharper.*
 TestResults/
 [Dd]ebug/
 [Rr]elease/
+[Pp]ackages/
 _ReSharper.VsVim
