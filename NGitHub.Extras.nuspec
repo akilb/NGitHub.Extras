@@ -26,6 +26,8 @@
     <file src="src\NGitHub.Extras\bin\Release\NGitHub.Extras.dll" target="lib\net40"/>
     <file src="src\NGitHub.Extras.SL4\bin\Release\NGitHub.Extras.SL4.dll" target="lib\sl4"/>
     <file src="src\NGitHub.Extras.WindowsPhone\bin\Release\NGitHub.Extras.WindowsPhone.dll" target="lib\sl3-wp"/>
+    <file src="src\NGitHub.Extras.WindowsPhone.Mango\bin\Release\NGitHub.Extras.WindowsPhone.dll" target="lib\sl4-wp"/>
     <file src="lib\sl3-wp\System.ServiceModel.Syndication.dll" target="lib\sl3-wp"/>
+    <file src="lib\sl3-wp\System.ServiceModel.Syndication.dll" target="lib\sl4-wp"/>
   </files>
 </package>

@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.Extras.SL4", "src\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.Extras.WindowsPhone", "src\NGitHub.Extras.WindowsPhone\NGitHub.Extras.WindowsPhone.csproj", "{A08E02A1-3257-44B2-9783-311112A12B62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGitHub.Extras.WindowsPhone.Mango", "src\NGitHub.Extras.WindowsPhone.Mango\NGitHub.Extras.WindowsPhone.Mango.csproj", "{1D1E8866-9A21-44DA-806F-3DC403BDCD88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{A08E02A1-3257-44B2-9783-311112A12B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A08E02A1-3257-44B2-9783-311112A12B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A08E02A1-3257-44B2-9783-311112A12B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1E8866-9A21-44DA-806F-3DC403BDCD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1E8866-9A21-44DA-806F-3DC403BDCD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1E8866-9A21-44DA-806F-3DC403BDCD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1E8866-9A21-44DA-806F-3DC403BDCD88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
