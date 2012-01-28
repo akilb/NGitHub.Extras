@@ -53,9 +53,13 @@
     <Compile Include="Constants.cs" />
     <Compile Include="GitHubClientExtensions.cs" />
     <Compile Include="Models\FeedItem.cs" />
+    <Compile Include="Models\RepositorySearchResult.cs" />
+    <Compile Include="Models\UserSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FeedService.cs" />
     <Compile Include="Services\IFeedService.cs" />
+    <Compile Include="Services\ISearchService.cs" />
+    <Compile Include="Services\SearchService.cs" />
     <Compile Include="SharedAssemblyInfo.cs" />
     <Compile Include="Utility\Ensure.cs" />
   </ItemGroup>
