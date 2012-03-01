@@ -49,16 +49,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json, Version=4.0.5.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Newtonsoft.Json.4.0.5\lib\sl4\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.4.0.8\lib\sl4\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NGitHub.Silverlight, Version=0.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NGitHub.Silverlight, Version=0.5.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\NGitHub.0.5.2\lib\sl4\NGitHub.Silverlight.dll</HintPath>
+      <HintPath>..\..\packages\NGitHub.0.5.4\lib\sl4\NGitHub.Silverlight.dll</HintPath>
     </Reference>
-    <Reference Include="RestSharp.Silverlight, Version=102.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\RestSharp.102.6\lib\sl4\RestSharp.Silverlight.dll</HintPath>
+    <Reference Include="RestSharp.Silverlight, Version=102.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\RestSharp.102.7\lib\sl4\RestSharp.Silverlight.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.Syndication, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows" />
@@ -73,9 +74,7 @@
     <Compile Include="..\NGitHub.Extras\**\*.cs" Exclude="..\NGitHub.Extras\Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
