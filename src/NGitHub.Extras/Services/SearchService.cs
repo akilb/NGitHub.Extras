@@ -21,8 +21,8 @@ namespace NGitHub.Extras.Services {
                                                          Action<GitHubException> onError) {
             Ensure.ArgumentNotNull(query, "user");
 
-            var resource = string.Format("/user/search/{0}", query.Replace(' ', '+'));
-            var request = new GitHubRequest(resource, API.v2, Method.GET);
+            var resource = string.Format("/legacy/user/search/{0}", query.Replace(' ', '+'));
+            var request = new GitHubRequest(resource, API.v3, Method.GET);
             return _client.CallApiAsync<UserSearchResults>(
                         request,
                         r => callback(r.Data.Users.Select(u => new User {
@@ -42,8 +42,8 @@ namespace NGitHub.Extras.Services {
                                                                 Action<GitHubException> onError) {
             Ensure.ArgumentNotNull(repo, "repo");
 
-            var resource = string.Format("/repos/search/{0}", repo.Replace(' ', '+'));
-            var request = new GitHubRequest(resource, API.v2, Method.GET);
+            var resource = string.Format("/legacy/repos/search/{0}", repo.Replace(' ', '+'));
+            var request = new GitHubRequest(resource, API.v3, Method.GET);
             return _client.CallApiAsync<RepositorySearchResults>(
                         request,
                         resp => callback(resp.Data.Repositories.Select(

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
     <id>NGitHub.Extras</id>
-    <version>0.6.4</version>
+    <version>0.7.0-alpha</version>
     <title>NGitHub.Extras</title>
     <authors>Akil Burgess</authors>
     <owners>Akil Burgess</owners>
@@ -14,13 +14,15 @@
     <language>en-US</language>
     <tags>GITHUB GIT NGITHUB</tags>
     <dependencies>
-      <dependency id="NGitHub" version="0.6.4" />
+      <dependency id="NGitHub" version="0.7.0-alpha" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.ServiceModel.dll" targetFramework="net40" />
       <frameworkAssembly assemblyName="System.ServiceModel.Syndication.dll" targetFramework="sl4" />
     </frameworkAssemblies>
     <releaseNotes>
+      0.7.0-alpha
+        - SearchService now uses the API v3 search endpoints.
       0.6.4
         - Remove WP7.0 support (7.1 Mango remains)
     </releaseNotes>
