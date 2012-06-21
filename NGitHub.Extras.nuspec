@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
     <id>NGitHub.Extras</id>
-    <version>0.3.1</version>
+    <version>0.6.4</version>
     <title>NGitHub.Extras</title>
     <authors>Akil Burgess</authors>
     <owners>Akil Burgess</owners>
@@ -14,7 +14,7 @@
     <language>en-US</language>
     <tags>GITHUB GIT NGITHUB</tags>
     <dependencies>
-      <dependency id="NGitHub" version="0.5.4" />
+      <dependency id="NGitHub" version="0.6.4" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.ServiceModel.dll" targetFramework="net40" />
@@ -29,5 +29,12 @@
     <file src="src\NGitHub.Extras.WindowsPhone.Mango\bin\Release\NGitHub.Extras.WindowsPhone.dll" target="lib\sl4-wp"/>
     <file src="lib\sl3-wp\System.ServiceModel.Syndication.dll" target="lib\sl3-wp"/>
     <file src="lib\sl3-wp\System.ServiceModel.Syndication.dll" target="lib\sl4-wp"/>
+    
+    <file src="src\NGitHub.Extras\bin\Release\NGitHub.Extras.pdb" target="lib\net40"/>
+    <file src="src\NGitHub.Extras.SL4\bin\Release\NGitHub.Extras.SL4.pdb" target="lib\sl4"/>
+    <file src="src\NGitHub.Extras.WindowsPhone\bin\Release\NGitHub.Extras.WindowsPhone.pdb" target="lib\sl3-wp"/>
+    <file src="src\NGitHub.Extras.WindowsPhone.Mango\bin\Release\NGitHub.Extras.WindowsPhone.pdb" target="lib\sl4-wp"/>
+
+    <file src="src\NGitHub.Extras\**\*.cs" target="src"/>
   </files>
 </package>

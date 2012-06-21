@@ -49,13 +49,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Newtonsoft.Json.4.0.8\lib\sl4\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.4.5.7\lib\sl4\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NGitHub.Silverlight, Version=0.5.4.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NGitHub.Silverlight, Version=0.6.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\NGitHub.0.5.4\lib\sl4\NGitHub.Silverlight.dll</HintPath>
+      <HintPath>..\..\packages\NGitHub.0.6.4\lib\sl4\NGitHub.Silverlight.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp.Silverlight, Version=102.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
